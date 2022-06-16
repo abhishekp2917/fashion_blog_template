@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #eeeeee;
+    font-family: "Open Sans";
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Oswald" !important;
+    font-size: 20px;
+}
+
+p{
+    font-size: 14px;
+}
+
+/* top bar */
+.topbar a{
+    padding:6px 13px;
+    font-size: 14px;
+}
+
+.topbar a:hover{
+    background-color: #cecece;
+    color: #000;
+}
+
+/* header */
+
+header>h1{
+    font-size: 48px;
+    line-height: 1.5;
+}
+
+header .header-image div{
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+header .header-image h3{
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+header .header-image h1{
+    font-size: 64px;
+}
+
+header .header-image button{
+    background-color: rgba(255,255,255,0.5);
+    font-weight: 500;
+}
+
+/* main content */
+
+/* posts */
+
+.posts div button{
+    font-size: 14px;
+}
+
+.posts div .replies{
+    border: 1px solid #000;
+}
+
+.posts div .replies span{
+    padding: 2px 8px;
+}
+
+.posts div .replies:hover{
+    background-color: #adadad !important;
+    color: #000 !important;
+}
+
+.posts div .likes{
+    border: 1px solid #adadad;
+}
+
+.posts div .likes:hover{
+    background-color: #adadad !important;
+}
+
+/* comments */
+.comments div h4{
+    font-size: 24px;
+}
+
+.comments div h4 span{
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.comments-container{
+    display: none;
+}
+
+.comment-active{
+    display: block;
+}
+
+/* popular-posts */
+.popular-posts img{
+    width: 50px;
+}
+
+.popular-posts ul li:hover{
+    background-color: #adadad;
+}
+
+/* follow-me */
+.follow-me a{
+    color: #fff;
+    background-color: #000;
+    display: inline-block;
+}
+
+.follow-me a:hover{
+    color: #000;
+    background-color: #cecece;
+}
+
+/* subscribe */
+.subscribe button:hover{
+    color: #000 !important;
+    background-color: #bebebe !important;
+}
+
+/* footer */
+footer{
+    background-color: rgba(0,0,0,0.6);
+}
+
+footer div a:hover{
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+}
+
+/* subscribe modal */
+.modal{
+    display: none;
+}
+
+.modal-active{
+    display: block;
+}
