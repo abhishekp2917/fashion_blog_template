@@ -1,12 +1,12 @@
 // open and close modal
 function openModal(){
     var modal = document.getElementById("subscribe-modal");
-    modal.classList.add("modal-active");
+    modal.style.display = "block";
 }
 
 function closeModal(){
     var modal = document.getElementById("subscribe-modal");
-    modal.classList.remove("modal-active");
+    modal.style.display = "none";
 }
 
 // toggle like button

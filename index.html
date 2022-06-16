@@ -33,15 +33,15 @@
     </div>
 
     <!-- subscribe modal-box -->
-    <div class="modal" id="subscribe-modal">
+    <div class="position-fixed" id="subscribe-modal">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-body container">
                     <i class="fa fa-remove float-right" onclick="closeModal()"></i>
                     <h4 class="my-3">SUBSCRIBE</h4>
                     <p class="my-3">Join my mailing list to receive updates on the latest blog posts and other things.</p>
-                    <input type="email" name="" id="" class="my-3 w-100"  placeholder="Enter e-mail">
-                    <button class="my-3 w-100 text-center text-white p-3 bg-orange border-none" onclick="closeModal()">Subscribe</button>
+                    <input type="email" name="email" id="email" class="my-3 w-100"  placeholder="Enter e-mail">
+                    <button id="subscribe-btn" class="my-3 w-100 text-center text-white p-3 bg-orange border-none">Subscribe</button>
                 </div>
             </div>
         </div>
@@ -293,7 +293,7 @@
                         <div class="container">
                             <p class="my-3">Enter your e-mail below and get notified on the latest blog posts.</p>
                             <input type="email" class="w-100 my-2 p-2" placeholder="Enter e-mail">
-                            <button class="my-3 w-100 py-2 text-white bg-orange text-center border-none" onclick="openModal()">Subscribe</button>
+                            <button class="my-3 w-100 py-2 text-white bg-orange text-center border-none">Subscribe</button>
                         </div>
                     </div>
                 </div>

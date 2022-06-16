@@ -19,6 +19,10 @@ This static site is made using HTML, CSS , Bootstrap and vanilla JavaScript.
 
 ![Screenshot (117)](https://user-images.githubusercontent.com/87487929/174022757-523dc97c-2758-4033-a1cc-040b57be7b14.png)
 
+### Subscribe modal section :
+
+![Screenshot (118)](https://user-images.githubusercontent.com/87487929/174035152-6d8d8fe4-1def-47b3-8eec-8e99ca08f85b.png)
+
 ### Git command to clone this respository :
 
 ```
