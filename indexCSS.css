@@ -145,7 +145,7 @@ footer div a:hover{
 }
 
 /* subscribe modal */
-.modal{
+#subscribe-modal{
     display: none;
 }
 
